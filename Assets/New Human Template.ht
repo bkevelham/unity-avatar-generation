@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1105 &110500000
+HumanTemplate:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Human Template
+  m_BoneTemplate:
+    Chest: Spine1
+    Head: Head
+    Hips: Hips
+    Left Index Distal: LeftHandIndex3
+    Left Index Intermediate: LeftHandIndex2
+    Left Index Proximal: LeftHandIndex1
+    Left Little Distal: LeftHandPinky3
+    Left Little Intermediate: LeftHandPinky2
+    Left Little Proximal: LeftHandPinky1
+    Left Middle Distal: LeftHandMiddle3
+    Left Middle Intermediate: LeftHandMiddle2
+    Left Middle Proximal: LeftHandMiddle1
+    Left Ring Distal: LeftHandRing3
+    Left Ring Intermediate: LeftHandRing2
+    Left Ring Proximal: LeftHandRing1
+    Left Thumb Distal: LeftHandThumb3
+    Left Thumb Intermediate: LeftHandThumb2
+    Left Thumb Proximal: LeftHandThumb1
+    LeftFoot: LeftFoot
+    LeftHand: LeftHand
+    LeftLowerArm: LeftForeArm
+    LeftLowerLeg: LeftLeg
+    LeftShoulder: LeftShoulder
+    LeftToes: LeftToeBase
+    LeftUpperArm: LeftArm
+    LeftUpperLeg: LeftUpLeg
+    Neck: Neck
+    Right Index Distal: RightHandIndex3
+    Right Index Intermediate: RightHandIndex2
+    Right Index Proximal: RightHandIndex1
+    Right Little Distal: RightHandPinky3
+    Right Little Intermediate: RightHandPinky2
+    Right Little Proximal: RightHandPinky1
+    Right Middle Distal: RightHandMiddle3
+    Right Middle Intermediate: RightHandMiddle2
+    Right Middle Proximal: RightHandMiddle1
+    Right Ring Distal: RightHandRing3
+    Right Ring Intermediate: RightHandRing2
+    Right Ring Proximal: RightHandRing1
+    Right Thumb Distal: RightHandThumb3
+    Right Thumb Intermediate: RightHandThumb2
+    Right Thumb Proximal: RightHandThumb1
+    RightFoot: RightFoot
+    RightHand: RightHand
+    RightLowerArm: RightForeArm
+    RightLowerLeg: RightLeg
+    RightShoulder: RightShoulder
+    RightToes: RightToeBase
+    RightUpperArm: RightArm
+    RightUpperLeg: RightUpLeg
+    Spine: Spine
+    UpperChest: Spine2
