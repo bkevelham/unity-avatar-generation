@@ -14,9 +14,9 @@ Open the SampleScene scene which contains the default Mixamo avatar. It has been
 
 ## Some remarks
 
-The sample was created because Unity's documentation contains very little information on how to use their API, nor does it supply a sample to the best of my knowledge. On various sites users have expressed that they are unable to use the API, or that it gives the non-functional results. 
+The sample was created because Unity's documentation contains very little information on how to use their API, nor does it supply a sample to the best of my knowledge. On various sites users have expressed that they are unable to use the API, or that it gives them non-functional results. 
 
-### Invalid AABB
+### Invalid AABB errors
 
 Some users report errors such as the following when applying an animation to their generated Avatar:
 
@@ -36,11 +36,11 @@ From what I have been able to tell this is due to an incorrect object name being
 
 ### Resizing avatars
 
-Most people who I have seen reporting trying to use this API seem to want to do so to create avatars with different skeleton proportions. While this repository does not demonstrate that functionality, the principle is the same. 
+Most people who I have seen trying to use this API, seem to want to do so to create avatars with different skeleton proportions. While this repository does not demonstrate that functionality, the principle is the same. 
 
-The avatar in the SampleScene scene is standing in a T-Pose. This T-Pose is stored in the Avatar's skeleton definition via the `SkeletonBone` array. This implies that you can change bone lengths by modifying the local positions of the bone/joint transforms to lengthen or shorten bones. Do this before creating the HumanDescription. 
+The avatar in the SampleScene scene is standing in a T-Pose. This T-Pose is stored in the Avatar's skeleton definition via the `SkeletonBone` array. This implies that you can change bone lengths by modifying the local positions of the bone/joint transforms to lengthen or shorten bones. Do this **before creating the HumanDescription**. 
 
-Note that it is not sufficient to just modify the bone length. Make sure that any changes to the lengths of leg bones are reflected in the position of the hip bone. That is, move it up or down to ensure the avatar's feet are planted on the ground in their T-Pose. If not, your animation will either have feet hover above the floor, or see the avatar bend its knees to accomodate for an incorrectly placed hip joint. 
+Note that it is not sufficient to just modify the bone length when modifying the legs. Make sure that any changes to the lengths of leg bones are reflected in the position of the hip bone. That is, move it up or down to ensure the avatar's feet are planted on the ground in their T-Pose. If not, your animation will either have feet hover above the floor, or see the avatar bend its knees to accomodate for an incorrectly placed hip joint. 
 
 ### Hardcoded definition
 
