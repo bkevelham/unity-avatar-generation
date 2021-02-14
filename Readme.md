@@ -44,4 +44,4 @@ Note that it is not sufficient to just modify the bone length when modifying the
 
 ### Hardcoded definition
 
-The repository contains a Mixamo avatar, and the code in `AvatarUtils.cs` contains a static dictionary mapping its bone/joint names to names Unity understands for Humanoid Avatars. If you different software to create your skinned and rigged avatars, you will need to adapt this definition or generate the mapping at runtime. The hardcoded dictionary purely exists to explicitly show which GameObject in the Avatar's hierarchy gets mapped to which of Unity's Humanoid Avatar joints. 
+The repository contains a Mixamo avatar, and the code in `AvatarUtils.cs` contains a static dictionary mapping its bone/joint names to names Unity understands for Humanoid Avatars. If you use different software to create your skinned and rigged avatars, you will need to adapt this definition or generate the mapping at runtime. The hardcoded dictionary purely exists to explicitly show which GameObject in the Avatar's hierarchy gets mapped to which of Unity's Humanoid Avatar joints. 
