@@ -17,7 +17,7 @@ namespace BKUnity
 				"While not demonstrated in this sample, this setup also allows you to generate an avatar with modified bone sizes. Simply adjust the joints " +
 				"of the avatar in T-Pose to have longer limbs by modifying their local positions before calling CreateHumanDescription. " +
 				"If you do so, make sure to adjust the position of the hips to account for increased or decreased leg length. That is, make sure the model " +
-				"in T-Pose has their feet planted on the ground. If not this may result in Mecanim animation artefacts where feel will hover above the floor " +
+				"in T-Pose has their feet planted on the ground. If not this may result in Mecanim animation artefacts where feet will hover above the floor " +
 				"or the knees will bend due to the hip being too close to the feet.", 
 				MessageType.Info);
 
