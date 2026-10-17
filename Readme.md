@@ -2,7 +2,7 @@
 
 Requirements
 
-- Unity 2020.1.17f1 (Version used, but will likely work with many newer and older versions)
+- Unity 2020.1.9f1 (Version used, but will likely work with many newer and older versions)
 
 ## Introduction
 
