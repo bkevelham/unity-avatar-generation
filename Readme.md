@@ -12,6 +12,8 @@ Open the SampleScene scene which contains the default Mixamo avatar. It has been
 
 ![](Doc/sampleavatarinspector.png)
 
+For a more complete write-up on avatar generation and the content of this repository, please reference https://bart.kevelham.com/articles/20261017-unity-avatarbuilder/.
+
 ## Some remarks
 
 The sample was created because Unity's documentation contains very little information on how to use their API, nor does it supply a sample to the best of my knowledge. On various sites users have expressed that they are unable to use the API, or that it gives them non-functional results. 
